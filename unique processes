@@ -85,19 +85,19 @@ process_identification_aggregate_pos_cfmid
   * STEP 28
 process_pepcalculation_cfmid_pos_passatutto
  
- * STEP 29
+  * STEP 29
 process_output_quantid_pos_camera_cfmid
 
- * STEP 30
+  * STEP 30
 process_peak_picker_library_pos_openms
 
- * STEP 31
+  * STEP 31
 process_masstrace_detection_library_pos_openms
 
-  * STEP 32
+   * STEP 32
 process_openms_to_xcms_conversion_library_pos
  
-  * STEP 33
+   * STEP 33
 process_ipo_param_library_pos_ipo
 process_masstrace_detection_library_pos_xcms
  
@@ -131,13 +131,13 @@ process_remove_adducts_library_pos_msnbase
    * STEP 43
 process_search_engine_library_pos_msnbase_nolibcharac
  
-    * STEP 44
+   * STEP 44
 process_search_engine_library_pos_msnbase_libcharac
  
-    * STEP 45
+   * STEP 45
 process_pepcalculation_library_pos_passatutto
  
-    * STEP 46
+   * STEP 46
 process_output_quantid_pos_camera_library
    
    * STEP 47 
