@@ -6,8 +6,8 @@
 get_software_versions
 
 
-      /* for positive data if specified by the user
-      
+      /* for positive data if specified by the user  ("pos" and "neg"  processes do the same thing, so here I only write "pos"once )
+
   *STEP 1
 process_peak_picker_pos_openms
 
