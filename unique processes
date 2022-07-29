@@ -1,0 +1,151 @@
+      /* Parse software version numbers
+ 
+ get_software_versions
+
+
+      /* for positive data if specified by the user
+      
+  *STEP 1
+process_peak_picker_pos_openms
+
+  *STEP 2
+process_masstrace_detection_pos_openms
+process_openms_to_xcms_conversion_pos
+process_ipo_param_pos_ipo
+process_masstrace_detection_pos_xcms
+
+  * STEP 3
+process_collect_rdata_pos_xcms
+ 
+  * STEP 4
+ process_align_peaks_pos_xcms
+ process_group_peaks_pos_N1_xcms
+ 
+  * STEP 7
+ process_blank_filter_pos_xcms
+ 
+  * STEP 8
+ process_dilution_filter_pos_xcms
+ 
+  * STEP 9
+ process_cv_filter_pos_xcms
+ 
+  * STEP 11
+ process_annotate_peaks_pos_camera
+ 
+  * STEP 12
+ process_group_peaks_pos_camera
+ 
+  * STEP 13
+ process_find_addcuts_pos_camera
+ 
+  * STEP 14
+ process_find_isotopes_pos_camera
+ 
+  * STEP 15 
+ process_peak_picker_msms_pos_openms
+ process_read_MS2_pos_msnbase
+ 
+  * STEP 16
+ process_mapmsms_tocamera_pos_msnbase
+ 
+  * STEP 17
+ process_mapmsms_toparam_pos_msnbase
+ 
+  * STEP 18
+ process_ms2_identification_pos_csifingerid
+ 
+  * STEP 19
+ process_identification_aggregate_pos_csifingerid
+ 
+  * STEP 20
+ process_pepcalculation_csifingerid_pos_passatutto
+ 
+  * STEP 21
+ process_output_quantid_pos_camera_csifingerid
+ 
+  * STEP 22
+ process_ms2_identification_pos_metfrag
+ 
+  * STEP 23
+ process_identification_aggregate_pos_metfrag
+ 
+  * STEP 24
+ process_pepcalculation_metfrag_pos_passatutto
+ 
+  * STEP 25
+ process_output_quantid_pos_camera_metfrag
+ 
+  * STEP 26
+ process_ms2_identification_pos_cfmid
+ 
+  * STEP 27
+ process_identification_aggregate_pos_cfmid
+ 
+  * STEP 28
+ process_pepcalculation_cfmid_pos_passatutto
+ 
+ * STEP 29
+process_output_quantid_pos_camera_cfmid
+
+ * STEP 30
+process_peak_picker_library_pos_openms
+
+ * STEP 31
+process_masstrace_detection_library_pos_openms
+
+  * STEP 32
+ process_openms_to_xcms_conversion_library_pos
+ 
+  * STEP 33
+ process_ipo_param_library_pos_ipo
+ process_masstrace_detection_library_pos_xcms
+ 
+   * STEP 34
+ process_annotate_peaks_library_pos_camera
+ 
+  * STEP 35
+ process_group_peaks_library_pos_camera
+ 
+  * STEP 36
+ process_find_addcuts_library_pos_camera
+ 
+  * STEP 37
+ process_find_isotopes_library_pos_camera
+ 
+  * STEP 38
+ process_read_MS2_library_pos_msnbase
+ 
+  * STEP 39
+ process_mapmsms_tocamera_library_pos_msnbase
+ 
+  * STEP 40
+ process_create_library_pos_msnbase
+ 
+  * STEP 41
+ process_collect_library_pos_msnbase
+ 
+  * STEP 42
+ process_remove_adducts_library_pos_msnbase
+ 
+   * STEP 43
+ process_search_engine_library_pos_msnbase_nolibcharac
+ 
+    * STEP 44
+ process_search_engine_library_pos_msnbase_libcharac
+ 
+    * STEP 45
+ process_pepcalculation_library_pos_passatutto
+ 
+    * STEP 46
+ process_output_quantid_pos_camera_library
+   
+   * STEP 47 
+ process_output_quantid_pos_camera_noid
+ 
+  
+  
+ 
+ 
+ 
+ 
