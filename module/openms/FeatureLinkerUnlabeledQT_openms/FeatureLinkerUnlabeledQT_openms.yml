@@ -1,0 +1,35 @@
+name: FeatureLinkerUnlabeledQT_openms
+description: Groups corresponding features from multiple maps using a QT clustering approach
+keywords:
+  - feature 
+  - group
+tools: 
+  - FeatureFinderMetabo:
+      description: |
+        This tool provides an algorithm for grouping corresponding features in multiple runs of label-free experiments
+      homepage: https://www.openms.de/
+      documentation: http://www.openms.de/doxygen/nightly/html/TOPP_FeatureLinkerUnlabeledQT.html
+      licence: 
+input:
+  - featureXMLFile:
+      type: file
+      description: |
+        Input files separated by blanks (valid formats: 'featureXML', 'consensusXML')
+      pattern: "*.featureXML"
+  - setting_file:
+      type: file
+      description: |
+        Use the given TOPP INI file
+output:
+  - consensusXML:
+      type: file
+      description: |
+        Output file
+      pattern: "*.consensusXML"             
+  - versions:
+      type: file
+      description: File containing software versions
+      pattern: "versions.yml"
+authors:
+  - "@"
+ 
