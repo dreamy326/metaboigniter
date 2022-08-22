@@ -1,0 +1,36 @@
+name: PeakPickerHiRes_openms
+description: peak detection in profile data
+keywords:
+  - peak picking
+  - spectrometry data
+tools:
+  - PeakPickerHiRes:
+      description: |
+        A tool for finding mass spectrometric peaks in profile mass spectra.
+        Executes the peak picking with high_res algorithm.
+      homepage: https://www.openms.de/
+      documentation: https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/nightly/html/TOPP_PeakPickerHiRes.html
+      licence: 
+input:
+  - mzMLFile:
+      type: file
+      description: |
+        Input profile data file 
+      pattern: "*.mzML"
+  - setting_file:
+      type: file
+      description: |
+        Use the given TOPP INI file
+output:
+  - mzMLFile:
+      type: file
+      description: |
+        Output peak file
+      pattern: "*.mzML"              
+  - versions:
+      type: file
+      description: File containing software versions
+      pattern: "versions.yml"
+authors:
+  - "@"
+ 
